@@ -1,0 +1,843 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor__resp {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url("imagenes/vespas comidas/fondopapel.jpg");
+    background-size: cover;
+   
+    
+}
+
+
+main {
+    width: 100%;
+    box-sizing: border-box;
+    float: left; 
+    
+}   
+   
+    
+
+/*Index--Comun Se aplico Flex*/
+
+.back__img {
+    background-image: url("imagenes/vespas comidas/pizzaslider.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.h1 { 
+    color: black;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    border: 6px ridge;   
+
+    
+}
+
+.article__index {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 19rem;
+    justify-content: flex-end;
+}
+
+
+.borders {
+    border: 1px double rgb(1, 1, 15);
+}
+
+.colorblue {
+    color:black;
+
+}
+
+.parrafo__menu {
+    color: rgb(10, 10, 9);    
+    font-family: 'Zen Loop', cursive;
+    font-size: 23px;
+    font-weight: bold;
+        
+}
+
+h2 {
+    font-family: 'Zen Loop', cursive;
+    color: rgb(13, 10, 51);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    margin-top: 3rem;
+}
+
+h3 {
+    color: rgb(1, 10, 1);
+    text-decoration: underline;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+} 
+
+ 
+      
+
+
+.conocenos__box {
+    border-radius: 8px;
+    box-shadow: 30px 0px 35px gray;    
+    margin-left: 5rem;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+.alinear__button{
+   
+   
+    text-align: center;    
+    background-color: #80808057;
+    background-size: 50%;
+    margin-top: 5rem;
+    transform: translate(-25px, 0px);
+    
+}
+
+.alinear__nav{
+    text-align: center;
+   
+    
+   
+}    
+    
+.ol {
+    list-style: none;        
+    padding: 0;
+    margin: 0;
+}
+
+.ol__titulo {
+    list-style: none; 
+    display: flex; 
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.alinearrh {   
+    position: relative;
+    left: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.box {
+    margin: 20px;
+
+}
+
+ .item:hover {
+    display: inline-block;
+    width: 90px;
+    background: rgb(110, 99, 99);
+
+    
+}
+
+.item__button {
+    display: inline-block;
+    width: 280px;
+    margin-left: 3rem;
+}
+
+header {  
+    
+    background-image: linear-gradient(to top, black, #80808040);
+    height: 60px;   
+    
+}
+
+#btn-menu {
+    display: none;
+} 
+
+header label {
+    display: none;
+    padding: 10px;
+    border: 1px solid #fff;
+    width: 30px;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0, 0.3);
+}
+
+
+header nav ol { 
+   
+    display: flex; 
+    justify-content: space-between;
+    
+    
+      
+    
+}
+li {
+    list-style: none;
+    display: block;
+    padding: 15px;
+    list-style: none;
+    width: 20%;
+    
+
+    
+}
+
+.a {
+    text-decoration: none; 
+    color: white;
+    font-family: 'Zen Loop', cursive;
+    font-size: 25px;
+}
+
+.slogan {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+
+}
+
+.section {
+    margin-top: 80px;
+    margin-bottom: 80px;    
+    height: 600px;
+    display: inline;
+
+   
+
+}
+
+.verticalAlig{
+    vertical-align: 100px;
+}
+
+
+
+.tamaño{
+    font-size: 35px;
+    font-family: 'Zen Loop', cursive;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(185, 179, 179);
+}
+
+.article__titulo {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.article__imagen{
+    width: 50%;
+    display: inline-block;
+
+}
+
+
+
+
+.submenu {
+    background-color: cadetblue;
+    display: none;
+    position: absolute;
+}
+
+ul li:hover .submenu {
+    display: block;
+
+}
+
+.alinear {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.estas__contacto{
+    text-emphasis: none;
+
+}
+
+.section__dir {
+    
+    display:inline-block;
+    width: 45%;
+    height: 20%;
+    padding: 5px;
+    border: 4px double;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a4d9a4, black);
+}
+
+.section__hor {
+    
+    display:inline-table;
+    width: 45%;
+    height: 30%;
+    padding: 5px;
+    border: 4px double;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a4d9a4, black);
+} 
+
+.back {
+    background-color: lightgrey;
+} 
+
+
+.flex__cont {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/*******SECCION GALERÍA APLIQUE GRID*******/
+
+
+.h1__galeria { 
+    color: black;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;    
+    border: double 5px black;  
+    border-end-start-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: rgb(46, 128, 131);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    }
+
+    .img__scale {
+        transform: scale(0.8, 1);
+    }
+      
+
+    .h2__galeria {
+        font-size: 40px;
+        font-family: 'Playfair Display', serif;
+        text-underline-position: auto;
+        color: rgb(53, 80, 53);
+    }
+
+    .body__galeria {
+        background-color: rgb(184, 228, 230);
+    }
+
+    .p__galeria {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .h3__galeria {
+        font-size: 55px;
+        font-family: inherit;
+        font-weight: bolder;
+        margin: 1rem;
+        color: rgb(53, 80, 53);
+    
+    }
+
+    .contenedor {        
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+        grid-auto-rows: minmax(200px, auto);
+        padding: 20px;
+        gap: 1em;
+        margin-top: 3rem;
+       
+    }    
+
+    .three-columns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: double 2px black;
+       
+        }
+    .three-columns:hover {
+       filter: opacity(0.9);
+       transform: scale(1.04);
+    }
+
+
+
+    /******APLIQUE FLEX SECCION PROMOSIONES******/
+    
+    .h1__promo { 
+        color: black;
+        font-size: 60px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        border: 6px ridge;   
+    
+        
+    }
+    /*aplico animate*/
+
+    .animate__backInDown {
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+    }
+
+
+    /*aplico trasform rotate*/
+   .art__titulo {
+    position: relative;
+    left: 80px;
+    transform: rotate(-45deg)
+   }
+
+    .h1__promo:hover {
+        color: rgb(238, 109, 109)
+    }
+    
+
+    .promosiones {
+        border-top-width: 1px;
+    }
+
+    .section__promos {
+        display: flex; 
+            
+        
+    } 
+
+    .titulo__promos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+    }
+
+    .h3__promos {
+        font-size: 35px;
+        font-family: 'Indie Flower', cursive;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+     
+        
+    }
+    .art__comb {
+        display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+    .button__comunicate {
+        font-family: 'Zen Loop', cursive;
+        font-size: 25px;
+        color: black;
+    }
+    
+    .flex__pie {
+        display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    }
+
+    .art__delivery {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+
+    .border__section {
+        border-style: double;        
+       background-image: url("imagenes/vespas comidas/hamburguesa2.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+
+        
+    }
+    
+    
+    .div__p {
+        margin-top: 3rem;
+    }
+    .h3__promos {
+        color: black;
+    }
+     
+    
+
+    .box__promos {        
+        box-decoration-break: unset;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 35px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        line-height: 28px;
+        text-align: center;
+        color: white;       
+    }
+
+
+    .p__promos {
+        
+        bottom: 120px;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: italic;
+        
+    }
+
+    .logo {
+        display: flex;
+        transform: rotate(-45deg);
+
+    }
+   
+
+    
+    .box__promosp {
+        height: 200px;       
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 35px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 4rem;
+        background-image: url("imagenes/vespas comidas/vespasss.jpg");
+        
+        background-size: auto;
+        
+    }
+
+    .section__promosa {
+        border: none;
+        display: flex; 
+        justify-content: center;      
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+        -ms-flex-align: center;
+        background-color: rgb(110, 50, 50);
+
+    }
+
+    .art__tabla {
+        background-color: #d1cece66;
+    }
+    
+    /***SECCION FOOTER***/
+
+    .footer__bottom {
+        display: flex;
+        flex-direction: column;      
+
+
+    }
+
+    .div__footer {
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+        
+    }
+    footer section div img {
+        position: relative;
+        left: 1.5rem;
+        top: 0.5rem;
+
+    }
+
+    .span {
+        box-sizing: border-box;
+    
+        border: 2px white double;
+        font-style: italic;
+        color: cornsilk;
+        font-size: 35px;
+        text-align: center; 
+        letter-spacing: 13px;
+        word-spacing: 18px;
+        line-height: 20px;
+        background-image: linear-gradient(to right, #a4d9a4, black);
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+    }
+    
+    .pie {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: 30px;
+        margin-bottom: 30px;       
+     }
+
+     .pie__pag {
+         
+         display: flex;
+         flex-direction: column ;
+         width: 150.812px;
+         align-items: stretch;
+      
+         
+         
+     }
+
+     .pie__img {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    /******SECCION MENU SE APLICO FLEX******/
+    /***********************/
+
+    .margin__tit {
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+    }
+
+    .td__menu {
+        text-align: left 
+    }
+
+    td {
+        width: 140px;
+        margin-right: 25px;
+        
+    }
+
+    .table__menu {
+
+        margin: top 0;
+    }
+
+    .table__margin {
+
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .flex__menu {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: flex-end;
+        background-image: url("imagenes/vespas comidas/carta2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+
+       
+        
+    }
+    
+    .h2__menu {
+        
+            font-family: 'Zen Loop', cursive;
+            color:black;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration-line: underline;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+    }
+    body {
+        width: 100%;
+        height: auto;
+
+    }
+    .body__menu {
+        width: 90%;
+        height: auto;
+        background-image: url("imagenes/vespas comidas/carta2.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        padding: 40px;
+       
+
+    }
+    
+    .img__resp {
+        width: 300px;
+    height: -webkit-fill-available;
+        
+    }
+
+    @media screen and (max-width:780px) {
+        .h1 {
+            font-size: 32px;
+           
+        }
+
+        .h1__promo {
+            color: wheat;
+        }
+
+        .conocenos__box {
+            flex-direction: column;
+        }
+        
+        .a {
+            font-size:18px;
+        }
+        
+        section article ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .span {
+            font-size: 20px;
+            text-align: center; 
+            letter-spacing: 9px;
+            word-spacing: 9px;
+            line-height: 10px;
+        }
+
+        .parrafo__menu {
+            font-size: 20px;
+
+        }
+        
+
+        .item { 
+            border-top: solid;
+        }
+
+        #btn-menu {
+            display: flex;
+        } 
+
+        .img__resp {
+            display: none;
+        }
+
+        .box__promosp {
+            font-size: 20px;
+        
+        }
+
+        .transf {
+            transform: scale(3.0);
+
+        }
+    }
+    /*promosiones aplico TRANSFORM SCALE*/
+   
+     @media screen and (max-width:780px) {
+        .box__promosp {
+            font-size: 20px;
+        }
+        .h1__promo {
+            font-size: 30px;
+        }   
+
+        .flex__pie {
+            font-size: 100px;
+
+        }
+
+        .transf {
+            transform: scale(0.5);
+        }
+
+        .art__titulo {
+            left: 10px;
+        }
+
+        .h3__promos {
+            font-size: 30px;
+        }
+
+         
+            
+     }
+
+     /*Galeria*/
+    
+     @media screen and (max-width:780px) {
+
+        .h1__galeria {
+            font-size: 40px;
+
+        }
+
+        .h3__galeria {
+            font-size: 25px;
+            text-align: center;
+        }
+         
+     }
+     
+     /*Menu*/
+
+     @media  screen and (max-width: 780px) {
+               
+        .h1 {
+            font-size: 20px;
+            margin-top: 1rem;
+        }
+        
+        .flex__menu {
+            justify-content: flex-start;
+        }
+
+        .flex__cont {
+    
+            display: flex;
+            flex-direction: column;
+        }
+
+       
+
+         
+     }
+        
+    
+    
+    
+
+        
+    
+
+    

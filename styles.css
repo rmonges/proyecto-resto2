@@ -451,13 +451,13 @@ ul li:hover .submenu {
         font-family: 'Indie Flower', cursive;
         letter-spacing: 5px;
         word-spacing: 10px;
+        text-align: center;
      
         
     }
     .art__comb {
         display: flex;
     flex-direction: column;
-    align-content: flex-end;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -563,6 +563,10 @@ ul li:hover .submenu {
     }
 
     .art__tabla {
+        background-color: #d1cece66;
+    }   
+
+    .art__tablados {
         background-color: #d1cece66;
     }
     
